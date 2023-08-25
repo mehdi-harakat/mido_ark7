@@ -337,7 +337,7 @@ main section img {
 /* ----------------------------------------------------------------------------- */
 
 .about {
-	background-image: url("/Image/end_bg_2560.png");
+	background-image: url("../Image/end_bg.png");
 	background-repeat: no-repeat;
 	background-position: bottom;
 	padding-top: 40px;
@@ -380,7 +380,6 @@ ul {
 
 footer .container-two .col-one {
 	display: flex;
-	align-items: center;
 	gap: 60px;
 	width: 100%;
 	justify-content: space-between;
@@ -390,14 +389,16 @@ footer .container-two .col-one {
 
 footer .container-two .col-one .ad-left {
 	display: flex;
-	gap: 20%;
+	justify-content: space-between;
+	gap: 10px;
+	width: 44%;
 }
 
 footer .container-two .col-one .ad-left ul h3 {
 	font-size: 22px;
 	font-weight: 700;
 	color: var(--white-color);
-	margin-bottom: 34px;
+	margin-bottom: 46px;
 	user-select: none;
 	cursor: pointer;
 }
@@ -407,9 +408,9 @@ footer .container-two .col-one .ad-left ul .tit-ico > i {
 }
 
 footer .container-two .col-one .ad-left ul li {
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 500;
-	margin-bottom: 16px;
+	margin-bottom: 24px;
 	color: #8f9492;
 	letter-spacing: 0.3px;
 	cursor: pointer;
@@ -427,8 +428,8 @@ footer .container-two .col-one .ad-right {
 }
 
 footer .container-two .col-one .ad-right .logo h2 {
-	font-size: 50px;
-	margin-bottom: 30px;
+	font-size: 42px;
+	margin-bottom: 16px;
 }
 
 footer .container-two .col-one .ad-right .social-media {
@@ -438,9 +439,9 @@ footer .container-two .col-one .ad-right .social-media {
 }
 
 footer .container-two .col-one .ad-right .social-media > i {
-	font-size: 24px;
-	width: 50px;
-	height: 50px;
+	font-size: 20px;
+	width: 44px;
+	height: 44px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -461,7 +462,7 @@ footer .container-two .col-one .ad-right .social-media .prod-btn {
 	gap: 16px;
 	border: 2px solid var(--white-color);
 	padding-inline: 26px;
-	padding-block: 16px;
+	padding-block: 12px;
 	border-radius: 14px;
 	cursor: pointer;
 	transition: all 0.3s ease-in-out;
@@ -510,8 +511,8 @@ footer .col-two .big-text p {
 	line-height: 1.6;
 	margin-bottom: 20px;
 	word-spacing: 2px;
+	text-align: justify;
 }
-
 
 @media (max-width: 991px) {
 	footer .container-two {
